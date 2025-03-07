@@ -1,0 +1,14 @@
+<manifest xmlns:android ="http://schemas.android.com/apk/res/android"
+    >
+    <application>
+    <activity android:name ="com.example.a5d9_ex_7_1.MainActivity"
+    android:exported="true"
+
+    >
+    <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+    </application>
+    </manifest>
