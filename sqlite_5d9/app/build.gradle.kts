@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.sqlite_5d9"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.sqlite_5d9"
@@ -37,6 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(project(":app"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
